@@ -1,0 +1,28 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+li {
+  list-style-type: none;
+}
+.home-card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-top: 20px;
+}
+.home-image {
+  border-radius: 15px;
+}
